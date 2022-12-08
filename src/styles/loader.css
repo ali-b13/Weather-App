@@ -1,0 +1,21 @@
+.loader {
+  animation:spin 1s infinite linear;
+  border:solid 2vmin transparent;
+  border-radius:50%;
+  border-right-color:#09f;
+  border-top-color:#09f;
+  box-sizing:border-box;
+  height:12vmin;
+  left:calc(50% - 10vmin);
+  position:fixed;
+  top:calc(70% - 10vmin);
+  width:12vmin;
+  z-index:1;
+  
+}
+
+@keyframes spin {
+  100% {
+    transform:rotate(360deg);
+  }
+}

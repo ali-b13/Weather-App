@@ -1,0 +1,19 @@
+
+.data-of-city-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.7rem;
+  color: rgb(215, 226, 235);
+  
+}
+.data-of-city-container span{
+  color: rgba(0, 0, 0, 0.565);
+}
+@media (min-width:50px) and (max-width:750px) {
+  .data-of-city-container{
+    gap: 1rem;
+    font-size: 1rem;
+  }
+}
